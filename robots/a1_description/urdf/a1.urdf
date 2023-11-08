@@ -303,12 +303,12 @@
         </joint>
     </xacro:if>  -->
   <link name="base">
-    <!--visual>
+    <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <box size="0.001 0.001 0.001"/>
       </geometry>
-    </visual-->
+    </visual>
   </link>
   <joint name="floating_base" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -411,7 +411,7 @@
     <limit effort="33.5" lower="-1.0471975512" upper="4.18879020479" velocity="21"/>
   </joint>
   <link name="FR_thigh">
-  <!--unvisualize-->
+    <!--unvisualize-->
     <gazebo>
       <ignore>
         <visual>true</visual>
