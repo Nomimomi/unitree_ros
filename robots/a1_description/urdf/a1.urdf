@@ -411,6 +411,14 @@
     <limit effort="33.5" lower="-1.0471975512" upper="4.18879020479" velocity="21"/>
   </joint>
   <link name="FR_thigh">
+  <!--unvisualize-->
+    <gazebo>
+      <ignore>
+        <visual>true</visual>
+      </ignore>
+    </gazebo>
+
+
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
